@@ -122,7 +122,7 @@ nav{
     width: 20px;
     height: 20px;
     background-image: radial-gradient( #dabc87a4 ,#dabc8715 );
-   filter: blur(5px);
+    filter: blur(5px);
 }
 .main-malumot-text{
     color: white;
@@ -317,5 +317,246 @@ nav{
     float: right;
 }
 .natija_footer p span{
-    color:#e2c38c ;
+    color:#d38d13 ;
 }
+.natija_content{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: auto auto;
+    margin-bottom: 50px;
+}
+.natija_grid_2{
+    margin-bottom: 100px;
+}
+.natija_grid_5{
+    position: relative;
+}
+.natija_grid_5 img{
+    position: absolute;
+    width: 140%;
+    bottom: 0;
+    left: -30%;
+}
+.natija_grid_1  img,.natija_grid_2  img,.natija_grid_3 img,.natija_grid_4 img,
+.natija_grid_6 img{
+   
+}
+.natija_content_grid{
+    text-align: center;
+}
+.natija_content_grid p{
+    color: rgba(255, 255, 255, 0.603);
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    padding: 10px;
+}
+.natija_content_grid p span{
+    font-weight: 400;
+    color: white;
+}
+.natija_grid_1, .natija_grid_3{
+    margin-top: 50px;
+}
+.natija_grid_4{
+    margin-right: 50px;
+}
+.natija_grid_6{
+    margin-left: 50px;
+}
+
+/* about style */
+.about{
+    background-image: url('/images/About\ Fon.png');
+}
+.about_grids{
+    margin: auto;
+    display: grid;
+    grid-template-columns:30% 40% 30%;
+    grid-template-rows:600px;
+    position: relative;
+}
+.about_grids_1{
+    display: grid;
+    grid-template-columns: 100% ;
+    grid-template-rows: auto auto;
+    margin: 20px 0;
+}
+.about_grids_2{
+    display: grid;
+    grid-template-columns: 100% ;
+    grid-template-rows: auto auto;
+    margin: 20px 0;
+}
+.about_grids_3{
+    display: grid;
+    grid-template-columns: 100% ;
+    grid-template-rows: auto auto;
+    margin: 20px 0;
+}
+.about_grid{
+    text-align: center;
+}
+.about_grid_6_1, .about_grid_6_2{
+    display: flex;
+    margin:50px 20px;
+}
+
+.about_grid_2{
+    text-align: center;
+}
+.about_grid_2 img{
+    width: 90%;
+    
+}
+.about_grid_1, .about_grid_3, .about_grid_4{
+    padding:10px ; 
+
+    border-radius: 5px;
+    
+}
+.about_grid_1 div , .about_grid_3 div , .about_grid_4 div{
+    background-color: #1d202b;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 0 15px 0  #6a6a72ab;
+
+}
+.about_grid h1{
+   color: #d7b883;
+   font-weight: 400;
+   font-size: 2.5rem;
+}
+.about_grid p{
+    color: white;
+    font-size: 1rem;
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+.about_grids_2{
+    position: relative;
+}
+.about_grid_5{
+    text-align: center;
+    position: absolute;
+    bottom: 50px;
+
+}
+
+.about_grid_5 img:nth-child(1){
+    width: 100%;
+}
+
+/*  sheriklar style */
+
+.sheriklar{
+    position: relative;
+    background-image: url('/images/White\ BG.png');
+    background-size: cover;
+    z-index: 1;
+    padding-bottom: 100px;
+}
+.sherik_box_1_1{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    padding: 5% 0;
+}
+.sherik_box_1_img{
+    position: relative;
+}
+.sherik_box_1_img img{
+    width: 70%;
+}
+.sherik_box_1_img img:nth-child(2){
+    position: absolute;
+    left: 30%;
+    bottom: 10%;
+}
+.sherik_box_1_subtitle {
+    padding: 10%;
+}
+.sherik_box_1_subtitle p{
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 1.3;
+}
+.sherik_box_1_subtitle span{
+    font-weight: 700;
+}
+.sherik_box_line{
+    width: 10%;
+    height: 80%;
+    background-color: #000;
+    border-radius: 50%;
+    filter: blur(1px);
+    margin-top:30px;
+}
+.sherik_box_1_3_grid{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25% ;
+    grid-template-rows: auto auto;
+}
+.grid_3{
+    background-color: white;
+    border-radius: 5px;
+    margin: 5px;
+    text-align: center;
+    display: grid;
+    justify-content: center;
+}
+.grid_3 img{
+    width: 100%;
+    margin-top:10px;
+}
+.grid_img_6{
+    background-color: #e41f26;
+}
+.sherik_box_1{
+    display: grid;
+    grid-template-columns: 48% 4% 48%;
+    grid-template-rows: auto;
+    padding-top: 100px;
+}
+.sherik_box_1_3_subtitle {
+    padding: 20px 0;
+}
+.sherik_box_1_3_subtitle p{
+    font-weight: 700;
+}
+.sherik_box_2_1{
+    background-color: #fff;
+    box-sizing: border-box;
+    padding: 20px;
+    width: 90%;
+    margin:50px auto;
+    display: grid;
+    grid-template-columns:31% 23% 23% 23%;
+    grid-template-rows: auto;
+    border-radius:5px ;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.562);
+}
+.box_2_grid img{
+   width: 100%;
+}
+.sherik_box_2_1 img{
+   
+}
+
+.box_2_grid:nth-child(1){
+    padding: 20px;
+}
+.box_2_grid p{
+    font-size: 16px;
+    font-weight:400 ;
+    letter-spacing: 1px;
+    line-height: 1.4;
+}
+.box_2_grid p span{
+    color: #bf9553;
+    font-weight: 600;
+}
+
+    
